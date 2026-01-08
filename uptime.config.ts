@@ -64,6 +64,16 @@ const workerConfig: WorkerConfig = {
       timeout: 10000,
     },
     {
+      id: '2507learninghubexam',
+      name: 'HZAU-COI 2507 Exam Viewer',
+      method: 'HEAD',
+      target: 'https://exam.hzaucoi2507.xyz/',
+      statusPageLink: 'https://exam.hzaucoi2507.xyz/',
+      hideLatencyChart: false,
+      expectedCodes: [200],
+      timeout: 10000,
+    },
+    {
       id: '2507learninghubbackup1',
       name: '2507 LearningHub 备用地址 1',
       method: 'HEAD',
